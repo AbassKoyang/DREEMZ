@@ -1185,7 +1185,7 @@ transform: translate(-50%, -50%) scale(1);
 
 .pop__up__con{
     width: 95%;
-    height: 650px;
+    height: 550px;
     background-color: white;
     border-radius: 10px;
     position: fixed;
@@ -1195,7 +1195,7 @@ transform: translate(-50%, -50%) scale(1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
 
@@ -1205,7 +1205,7 @@ transform: translate(-50%, -50%) scale(1);
 
 .open-popup{
     visibility: visible;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%, -50%) scale(1);
     }
     
@@ -1238,7 +1238,7 @@ transform: translate(-50%, -50%) scale(1);
     padding-right: 10px;
 }
 .pop__up__content h1{
-    font-size: 27px;
+    font-size: 24px;
     font-weight: 700;
     text-align: left;
     margin-top: 0px;
@@ -1254,7 +1254,7 @@ transform: translate(-50%, -50%) scale(1);
     margin-left: 10px;
 }
 .pop__up__content h3{
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
     text-align: left;
     margin-top: 10px;
