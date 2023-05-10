@@ -1405,7 +1405,7 @@ button:hover p{
         }
          .join p{
             font-family: 'poppins';
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 500;
             margin: 0;
             text-align: center;
@@ -1469,7 +1469,7 @@ button:hover p{
         }
          .register p{
             font-family: 'poppins';
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 500;
             margin: 0;
          }
@@ -1609,7 +1609,7 @@ button:hover p{
             margin-bottom: 40px;
         }
         .impact{
-            width: 70%;
+            width: 75%;
             height: 85%;
             background-color: transparent ;
             display: flex;
