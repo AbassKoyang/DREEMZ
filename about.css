@@ -176,468 +176,6 @@ header .logo {
 
 
 
-
-.revh1{
-    text-align: center;
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 300px;
-    color: var(--navy);
-}
-
-
-
-
-
-/* TESTIMONIAL PAGE */ /* TESTIMONIAL PAGE */
-/* TESTIMONIAL PAGE */ /* TESTIMONIAL PAGE */
-/* TESTIMONIAL PAGE */ /* TESTIMONIAL PAGE */
-
-.container{
-    height: 700px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-.testimonial{
-    position: relative;
-    max-width: 900px;
-    width: 100%;
-    background-color: transparent;
-    padding: 50px 0;
-    row-gap: 30px;
-    overflow: hidden;
-}
-
-
-.testimonial img{
-    height: 170px;
-    width: 170px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.testimonial .slide{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 30px;
-}
-.slide p{
-    text-align: center;
-    padding: 0 100px;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--navy);
-}
-.slide .quote__icon{
-    font-size: 35px;
-    color: var(--cta-color);
-}
-.slide .details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.details .stars{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.stars .fa-star{
-    font-size: 25px;
-    color: var(--circle-bg-color);
-    margin: 20px;
-}
-
-.details .name{
-    font-size: 16px;
-    font-weight: 700;
-    color: #333 ;
-    
-
-}
-
-/* swiper button css */ /* swiper button css */
-/* swiper button css */ /* swiper button css */
-
-.nav-btn{
-    height: 40px;
-    width: 40px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-  
-}
-
-.nav-btn::after,
-.nav-btn::before{
-    color: #0f153d;
-    font-size: 20px;
-}
-
-.swiper-pagination-bullet{
-    background-color: #0f153d;
-}
-
-.swiper-pagination-bullet-active{
-    background-color: #0f153d;
-}
-
-
-
-
-
-.review__content{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: transparent;
-
-}
-
-.review__content .text{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-
-}
-.text h1{
-    font-size: 70px;
-    font-weight: 800;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    padding-right: 50px;
-    margin-left: 20px;
-}
-
-.text p{
-    font-size: 24px;
-    font-weight: 500;
-    margin-left: 20px;
-}
-
-.btn__con{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-button{
-    width: 120px;
-    height: 40px;
-    background-color: var(--cta-color);
-    border: none;
-    margin: 30px;
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
-}
-button a{
-    text-decoration: none;
-    color: white;
-}
-button:hover{
-    color: white;
-    background-color: #ef1d24;
-}
-.portfolio{
-    margin-left: 0;
-    background-color: transparent;
-    border: 1px solid var(--navy);
-    color: #0f153d;
-    font-weight: 500;
-}
-
-.portfolio a{
-    color: #0f153d;
-}
-.portfolio:hover{
-    color: white;
-    background-color: #0f153d;
-}
-.portfolio:hover a{
-    color: white;
-}
-
-
-
-
-
-.l__image{
-    width: 58%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: transparent;
-
-}
-.l__image .l__image__inner{
-    width: 100%;
-    height: 48%;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 0px;
-}
-
-.l__image .img1{
-    width: 48%;
-    height: 100%;
-    border-radius: 0px;
-    
-
-}
-
-
-
-
-
-.main__con{
-    margin-top: 50px;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    background-color: #0f153d;
-    align-items: center;
-    justify-content: flex-start;
-    position: absolute;
-    top: 30%;
-    position: relative;
-}
-.main__con h2{
-    font-size: 45px;
-    padding-left: 300px;
-    padding-right: 300px;
-    color: white;
-    text-align: center;
-    margin-top: 50px;
-}
-
-
-.large__image__con{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    background-color: transparent;
-}
-
-
-.large__image__con .large__image{
-    width: 100%;
-    height: 100%;
-
-}
-
-
-.thirdpagecon{
-    width: 70%;
-    height: 220px;
-    background-color: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    position: absolute;
-    bottom: -75%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-}
-
-.subcon1{
-    width: 30%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.subcon1 h1{
-    font-size: 50px;
-    font-weight: 900;
-    color: var(--cta-color);
-}
-
-.subcon1 p{
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
-
-.subcon2{
-    width: 35%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.subcon2 h1{
-    font-size: 50px;
-    font-weight: 900;
-    color: var(--cta-color);
-}
-
-.subcon2 p{
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
-.subcon3{
-    width: 35%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.subcon3 h1{
-    font-size: 50px;
-    font-weight: 900;
-    color: var(--cta-color);
-}
-
-.subcon3 p{
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
-
-
-.revh1{
-    text-align: center;
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 400px;
-    color: var(--navy);
-}
-
-
-
-
-
-/* TESTIMONIAL PAGE */ /* TESTIMONIAL PAGE */
-/* TESTIMONIAL PAGE */ /* TESTIMONIAL PAGE */
-/* TESTIMONIAL PAGE */ /* TESTIMONIAL PAGE */
-
-.container{
-    height: 700px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-.testimonial{
-    position: relative;
-    max-width: 900px;
-    width: 100%;
-    background-color: transparent;
-    padding: 50px 0;
-    row-gap: 30px;
-    overflow: hidden;
-}
-
-
-.testimonial img{
-    height: 170px;
-    width: 170px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-.testimonial .slide{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 30px;
-}
-.slide p{
-    text-align: center;
-    padding: 0 100px;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--navy);
-}
-.slide .quote__icon{
-    font-size: 35px;
-    color: var(--cta-color);
-}
-.slide .details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.details .stars{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.stars .fa-star{
-    font-size: 25px;
-    color: var(--circle-bg-color);
-    margin: 20px;
-}
-
-.details .name{
-    font-size: 16px;
-    font-weight: 700;
-    color: #333 ;
-    
-
-}
-
-/* swiper button css */ /* swiper button css */
-/* swiper button css */ /* swiper button css */
-
-.nav-btn{
-    height: 40px;
-    width: 40px;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-  
-}
-
-.nav-btn::after,
-.nav-btn::before{
-    color: #0f153d;
-    font-size: 20px;
-}
-
-.swiper-pagination-bullet{
-    background-color: #0f153d;
-}
-
-.swiper-pagination-bullet-active{
-    background-color: #0f153d;
-}
-
-
-
-
-
-
 /* ===== FOOTER ===== */
 
 
@@ -709,8 +247,170 @@ button:hover{
     color: var(--navy);
     text-align: center;
   }
-  
 
+
+
+
+
+
+
+
+
+
+
+  .aboutgobits{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.aboutgobits img{
+    width: 40%;
+    height: 100%;
+
+}
+.aboutgobitstext{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+h1{
+    font-weight: 700;
+}
+.boxdiv{
+width: 40%;
+height: 2%;
+}
+.impact{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourthpage{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.fourthpagetext{
+    width: 34%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    align-content: flex-start;
+}
+.services{
+    width: 60%;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.innerservices{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service{
+width: 30%;
+height: 90%;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}  
+.icon {
+    width: 30%;
+    margin-left: 20px;
+} 
+.service .p1{
+    font-size: 22px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 600;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.service .p2{
+    font-size: 13px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.fourthpagetext .p1{
+    font-size: 50px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 700;
+    margin-left: 20px;
+}
+.fourthpagetext .p2{
+    font-size: 18px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.view{
+    width: 40%;
+    height: 8%;
+    font-size: 18px;
+    color: var(--cta-color);
+    font-family: 'poppins';
+    font-weight: 400;
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid var(--cta-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.view:hover{
+    background-color: var(--cta-color);
+    color: white;
+}
 
 
 
@@ -749,13 +449,6 @@ button:hover{
         height: 50%;
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -861,6 +554,162 @@ button:hover{
     }
 }
 
+.aboutgobits{
+    width: 100%;
+    height: 1400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.aboutgobits img{
+    width: 80%;
+    height: 50%;
+
+}
+.aboutgobitstext{
+    width: 90%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+h1{
+    font-weight: 700;
+}
+.boxdiv{
+width: 40%;
+height: 2%;
+}
+.impact{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourthpage{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.fourthpagetext{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    align-content: flex-start;
+}
+.services{
+    width: 100%;
+    height: 67%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.innerservices{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service{
+width: 30%;
+height: 90%;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}  
+.icon {
+    width: 30%;
+    margin-left: 20px;
+} 
+.service .p1{
+    font-size: 22px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 600;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.service .p2{
+    font-size: 13px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.fourthpagetext .p1{
+    font-size: 50px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 700;
+    margin-left: 20px;
+}
+.fourthpagetext .p2{
+    font-size: 18px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.view{
+    width: 25%;
+    height: 10%;
+    font-size: 18px;
+    color: var(--cta-color);
+    font-family: 'poppins';
+    font-weight: 400;
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid var(--cta-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top: 25px;
+
+}
+.view:hover{
+    background-color: var(--cta-color);
+    color: white;
+}
 
 
 
@@ -973,4 +822,176 @@ button:hover{
             display: block;
             right: 2%;
         }
-    }
+
+
+
+
+
+
+
+
+
+
+
+        
+.aboutgobits{
+    width: 100%;
+    height: 1700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+.aboutgobits img{
+    width: 95%;
+    height: 30%;
+
+}
+.aboutgobitstext{
+    width: 90%;
+    height: 65%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+h1{
+    font-weight: 700;
+}
+.boxdiv{
+width: 40%;
+height: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourthpage{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    display: none;
+}
+.fourthpagetext{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    align-content: flex-start;
+}
+.services{
+    width: 100%;
+    height: 67%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.innerservices{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service{
+width: 30%;
+height: 90%;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}  
+.icon {
+    width: 30%;
+    margin-left: 20px;
+} 
+.service .p1{
+    font-size: 22px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 600;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.service .p2{
+    font-size: 13px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.fourthpagetext .p1{
+    font-size: 50px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 700;
+    margin-left: 20px;
+}
+.fourthpagetext .p2{
+    font-size: 18px;
+    color: black;
+    font-family: 'poppins';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.view{
+    width: 25%;
+    height: 10%;
+    font-size: 18px;
+    color: var(--cta-color);
+    font-family: 'poppins';
+    font-weight: 400;
+    background-color: transparent;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid var(--cta-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top: 25px;
+
+}
+.view:hover{
+    background-color: var(--cta-color);
+    color: white;
+}
+    
+    }   
+    
+    
+    
+    
+    
+    
+    
+    
