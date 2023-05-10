@@ -263,7 +263,7 @@ width: 100%;
 
 
 .sub__con{
-    width: 300px;
+    width: 350px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -279,7 +279,7 @@ width: 100%;
 }
 
 .sub__con__wrapper{
-    width: 80%;
+    width: 90%;
     padding: 0px;
    display: flex;
    align-items: center;
