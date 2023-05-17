@@ -1640,14 +1640,14 @@ header .logo {
     
     
     .shop{
-        width: 150px;
+        width: 130px;
         height: 50px;
         background-color: var(--cta-color);
         border-radius: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 15px;
+        margin-left: 10px;
     }
     
     .shop:hover{
