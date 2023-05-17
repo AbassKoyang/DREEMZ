@@ -772,10 +772,18 @@ button:hover{
     .nav__align{
         height: 10%;
         position: relative;
+        position: fixed;
+        top: 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        z-index: 100;
+        background-color: white;
     }
     
        header .logo{
-            width: 30%;
+            width: 25%;
+        }
+        header{
+            border: none;
         }
        
         #menu__icon{
@@ -870,6 +878,7 @@ button:hover{
         align-items: center;
         justify-content: space-evenly;
         background-color: transparent;
+        margin-top: 100px;
     
     }
     
@@ -1100,6 +1109,15 @@ button:hover{
         margin-top: 400px;
         color: var(--navy);
     }
+
+
+
+
+    .stars .fa-star{
+        font-size: 18px;
+        color: var(--circle-bg-color);
+        margin: 20px;
+    }
     
 
 
@@ -1127,12 +1145,20 @@ button:hover{
     .nav__align{
         height: 10%;
         position: relative;
+        position: fixed;
+        top: 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        z-index: 100;
+        background-color: white;
         /* overflow: hidden; */
-    }
-    
-       header .logo{
-            width: 30%;
         }
+        
+           header .logo{
+                width: 30%;
+            }
+            header{
+                border: none;
+            }
        
         #menu__icon{
             display: block;
@@ -1226,12 +1252,14 @@ button:hover{
 
         .review__content{
             width: 100%;
-            height: 900px;
+            height: 650px;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-evenly;
             background-color: transparent;
+            margin-top: 70px;
+            background-color: white;
         
         }
         
@@ -1249,7 +1277,7 @@ button:hover{
             font-weight: 800;
             margin-top: 50px;
             margin-bottom: 20px;
-            padding-right: 50px;
+            padding-right: 0px;
             margin-left: 20px;
         }
         
@@ -1271,6 +1299,7 @@ button:hover{
             background-color: var(--cta-color);
             border: none;
             margin: 30px;
+            margin-left: 20px;
             color: white;
             font-weight: 500;
             cursor: pointer;
@@ -1307,8 +1336,8 @@ button:hover{
         
         
         .l__image{
-            width: 90%;
-            height: 80%;
+            width: 100%;
+            height: 40%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1341,7 +1370,7 @@ button:hover{
         .main__con{
             margin-top: 50px;
             width: 100%;
-            height: 400px;
+            height: 430px;
             display: flex;
             flex-direction: column;
             background-color: #0f153d;
@@ -1395,7 +1424,7 @@ button:hover{
         }
         
         .subcon1{
-            width: 30%;
+            width: 35%;
             height: 70%;
             display: flex;
             flex-direction: column;
@@ -1461,6 +1490,36 @@ button:hover{
             font-weight: 700;
             margin-top: 400px;
             color: var(--navy);
+        }
+
+
+
+        .footer__box p{
+            font-size: 0.7rem;
+        }
+        
+        .footer__box .footer__title{
+            font-size: 17px;
+        }
+        .footer__box a{
+            font-size: 15px;
+        }
+
+
+
+
+
+        .details .stars{
+            width: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .stars .fa-star{
+            font-size: 15px;
+            color: var(--circle-bg-color);
+            margin: 20px;
         }
         
     
