@@ -632,10 +632,17 @@ width: 100%;
     .nav__align{
         height: 10%;
         position: relative;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
     
        header .logo{
             width: 30%;
+        }
+        header{
+            border-bottom:none;
         }
        
         #menu__icon{
@@ -736,7 +743,10 @@ width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     position: fixed;
+    top: 10%;
+    z-index: 70;
 }
+
 
 .nav__2 .interior{
     width: 14%;
@@ -782,7 +792,7 @@ width: 100%;
 /* works */ /* works */
 .container{
     width: 100%;
-        margin-top: 30px;
+        margin-top: 200px;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -791,7 +801,7 @@ width: 100%;
     .container h1{
         font-size: 40px;
         font-weight: 800;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         text-align: center;
     }
     
@@ -913,7 +923,7 @@ width: 100%;
     justify-content: space-evenly;
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
-    z-index: 5;
+    z-index: 100;
 }
 
 .open-popup{
@@ -1045,11 +1055,18 @@ transform: translate(-50%, -50%) scale(1);
     .nav__align{
         height: 10%;
         position: relative;
+        background-color: white;
         /* overflow: hidden; */
+        position: fixed;
+        top: 0;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
     
        header .logo{
             width: 30%;
+        }
+        header{
+            border-bottom: none;
         }
        
         #menu__icon{
@@ -1155,6 +1172,9 @@ transform: translate(-50%, -50%) scale(1);
     margin-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    position: fixed;
+    top: 8.5%;
+    z-index: 70;
 }
 
 .nav__2 .interior{
@@ -1173,7 +1193,7 @@ transform: translate(-50%, -50%) scale(1);
     }
     .interior a{
         text-decoration: none;
-        font-size: 8px;
+        font-size: 7px;
         color: white;
         font-weight: 600;
         text-align: center;
@@ -1204,7 +1224,7 @@ transform: translate(-50%, -50%) scale(1);
 /* works */ /* works */
 .container{
     width: 100%;
-        margin-top: 30px;
+        margin-top: 150px;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -1327,7 +1347,7 @@ transform: translate(-50%, -50%) scale(1);
 
 .pop__up__con{
     width: 95%;
-    height: 550px;
+    height: 560px;
     background-color: white;
     border-radius: 10px;
     position: fixed;
@@ -1340,7 +1360,7 @@ transform: translate(-50%, -50%) scale(1);
     justify-content: flex-start;
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
-    z-index: 10;
+    z-index: 100;
 
     
 }
