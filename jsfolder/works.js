@@ -136,3 +136,37 @@ function closePopup9(){
     popup9.classList.remove("open-popup");
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function sendEmail(){
+
+    Email.send({
+        secureToken:"84615a65-37f8-4f36-9de4-59728d268d06",
+        To : 'medbotixinc@gmail.com',
+        From : document.getElementById('email').value,
+        Subject : "New Contact Form Enquiry",
+        Body : "First Name: " + document.getElementById('firstname').value
+              + " <br> Last Name: " + document.getElementById('lastname').value
+              + " <br> Email: " + document.getElementById('email').value
+              + " <br> Additional Info: " + document.getElementById('message').value
+
+    }).then(
+      message => alert(" Message Sent Succesfully")
+    );
+}

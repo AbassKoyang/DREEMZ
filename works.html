@@ -284,22 +284,22 @@
         <h3>Do You Want Something Like This?</h3>
         <p>Fill in the form below to get started!</p>
         <div class="input__con">
-            <form action="">
+            <form action="" onsubmit="sendEmail(); reset(); return false;">
                 <div class="details">
                     <p>First Name*</p>
-                    <input type="text" required>
+                    <input type="text"  id="firstname" required>
                 </div>
                 <div class="details">
                     <p>Last Name*</p>
-                    <input type="text" required >
+                    <input type="text" id="lastname" required >
                 </div>
                 <div class="details">
                     <p>Email Address*</p>
-                    <input type="email" required >
+                    <input type="email" id="email" required >
                 </div>
                 <div class="features">
                     <p>Additional Information*</p>
-                    <input type="text" >
+                    <input type="text"  id="message">
                 </div>
                 <button type="submit">Send</button>
             </form>
@@ -712,5 +712,6 @@
 
 
     <script src="./jsfolder/works.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
    </body>
    </html>
