@@ -560,164 +560,170 @@ background-color: white;
         display: block;
         right: 2%;
     }
-}
-
-.aboutgobits{
-    width: 100%;
-    height: 1400px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 100px;
-}
-.aboutgobits img{
-    width: 80%;
-    height: 50%;
-
-}
-.aboutgobitstext{
-    width: 90%;
-    height: 50%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-h1{
-    font-weight: 700;
-}
-.boxdiv{
-width: 40%;
-height: 2%;
-}
-.impact{
-    width: 100%;
-    height: 50vh;
-    background-color: white;
-    margin-top: 100px;
-}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-.fourthpage{
-    width: 100%;
-    height: 1000px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-}
-.fourthpagetext{
-    width: 100%;
-    height: 30%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: left;
-    align-content: flex-start;
-}
-.services{
-    width: 100%;
-    height: 67%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-.innerservices{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.service{
-width: 30%;
-height: 90%;
-background-color: white;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: start;
-    flex-direction: column;
-}  
-.icon {
+    .aboutgobits{
+        width: 100%;
+        height: 1400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 100px;
+    }
+    .aboutgobits img{
+        width: 80%;
+        height: 50%;
+    
+    }
+    .aboutgobitstext{
+        width: 90%;
+        height: 50%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    h1{
+        font-weight: 700;
+    }
+    .boxdiv{
+    width: 40%;
+    height: 2%;
+    }
+    .impact{
+        width: 100%;
+        height: 50vh;
+        background-color: white;
+        margin-top: 100px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .fourthpage{
+        width: 100%;
+        height: 1000px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+    }
+    .fourthpagetext{
+        width: 100%;
+        height: 30%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: left;
+        align-content: flex-start;
+    }
+    .services{
+        width: 100%;
+        height: 67%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .innerservices{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .service{
     width: 30%;
-    margin-left: 20px;
-} 
-.service .p1{
-    font-size: 22px;
-    color: black;
-    font-family: 'poppins';
-    font-weight: 600;
-    margin-left: 20px;
-    text-transform: capitalize;
+    height: 90%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        flex-direction: column;
+    }  
+    .icon {
+        width: 30%;
+        margin-left: 20px;
+    } 
+    .service .p1{
+        font-size: 22px;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 600;
+        margin-left: 20px;
+        text-transform: capitalize;
+    }
+    .service .p2{
+        font-size: 13px;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .fourthpagetext .p1{
+        font-size: 50px;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    .fourthpagetext .p2{
+        font-size: 18px;
+        color: black;
+        font-family: 'poppins';
+        font-weight: 400;
+        margin-left: 20px;
+    }
+    .view{
+        width: 25%;
+        height: 10%;
+        font-size: 18px;
+        color: var(--cta-color);
+        font-family: 'poppins';
+        font-weight: 400;
+        background-color: transparent;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 20px;
+        border: 2px solid var(--cta-color);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        margin-top: 25px;
+    
+    }
+    .view:hover{
+        background-color: var(--cta-color);
+        color: white;
+    }
 }
-.service .p2{
-    font-size: 13px;
-    color: black;
-    font-family: 'poppins';
-    font-weight: 400;
-    margin-left: 20px;
-}
-.fourthpagetext .p1{
-    font-size: 50px;
-    color: black;
-    font-family: 'poppins';
-    font-weight: 700;
-    margin-left: 20px;
-}
-.fourthpagetext .p2{
-    font-size: 18px;
-    color: black;
-    font-family: 'poppins';
-    font-weight: 400;
-    margin-left: 20px;
-}
-.view{
-    width: 25%;
-    height: 10%;
-    font-size: 18px;
-    color: var(--cta-color);
-    font-family: 'poppins';
-    font-weight: 400;
-    background-color: transparent;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    cursor: pointer;
-    margin-left: 20px;
-    border: 2px solid var(--cta-color);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    margin-top: 25px;
 
-}
-.view:hover{
-    background-color: var(--cta-color);
-    color: white;
-}
+
 
 
 
@@ -852,13 +858,13 @@ background-color: white;
         
 .aboutgobits{
     width: 100%;
-    height: 1700px;
+    height: 1800px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 0px;
+    margin-top: 100px;
 }
 .aboutgobits img{
     width: 95%;
