@@ -735,6 +735,7 @@ width: 100%;
     margin-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    position: fixed;
 }
 
 .nav__2 .interior{
