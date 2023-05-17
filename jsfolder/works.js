@@ -157,7 +157,7 @@ function closePopup9(){
 function sendEmail(){
 
     Email.send({
-        secureToken:"84615a65-37f8-4f36-9de4-59728d268d06",
+        secureToken:"a0c46de6-3223-4932-9b32-b21710a9270b",
         To : 'medbotixinc@gmail.com',
         From : document.getElementById('email').value,
         Subject : "New Contact Form Enquiry",
