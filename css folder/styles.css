@@ -1833,7 +1833,7 @@ header .logo {
     background-color: transparent;
 }
 .second__page__text h1{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     color: white;
     margin-top: 0px;
@@ -1842,7 +1842,7 @@ header .logo {
 .description{
     margin-top: 20px;
     margin-bottom: 0px;
-    width: 70%;
+    width: 85%;
     height: 15%;
     color: white;
 }
@@ -1859,7 +1859,7 @@ header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 .learn__btn:hover{
     background-color: #f3282fc6;
