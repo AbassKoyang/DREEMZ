@@ -158,7 +158,7 @@ function sendEmail(){
 
     Email.send({
         secureToken:"a0c46de6-3223-4932-9b32-b21710a9270b",
-        To : 'medbotixinc@gmail.com',
+        To : 'abasskoyang12345@gmail.com',
         From : document.getElementById('email').value,
         Subject : "New Contact Form Enquiry",
         Body : "First Name: " + document.getElementById('firstname').value
