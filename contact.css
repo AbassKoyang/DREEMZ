@@ -29,20 +29,22 @@ body{
     position: relative;
 }
 .nav__align{
-    /* position: fixed; */
+    position: fixed;
     z-index: 100;
     top: 0;
     right: 0;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 13vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 header{
     width: 80%;
     height: 100%;
-    border-bottom: 1px solid #749a8a;
+    border-bottom: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -259,7 +261,7 @@ header .logo {
 
   
 .contactlandingpage{
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     height: 100vh;
     background-color: white;
@@ -610,10 +612,12 @@ button:hover p{
 .question p{
     font-size: 20px;
     font-weight: 500;
+    color: var(--navy);
 }
 .question h6{
     font-size: 28px;
     font-weight: 700;
+    color: var(--navy);
 }
 .line{
     flex-direction: column;
@@ -629,10 +633,12 @@ button:hover p{
 .line p{
     font-size: 20px;
     font-weight: 500;
+    color: var(--navy);
 }
 .line h6{
     font-size: 28px;
     font-weight: 700;
+    color: var(--navy);
 }
 
 
